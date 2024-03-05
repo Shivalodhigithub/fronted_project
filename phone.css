@@ -1,0 +1,212 @@
+@media screen and (max-width:1000px) {
+    /* *{
+              background-color: red;
+          } */
+
+    /* Navigation */
+
+    #logo img {
+
+        height: 41px;
+        width: 43px;
+        border-radius: 15px;
+    }
+
+    #navbar {
+        flex-direction: column;
+        /* width:  141%; */
+    }
+
+    #navbar ul li a {
+        font-size: 1.2rem;
+        padding: 0px 7px;
+        padding-bottom: 8px;
+    }
+
+    .items {
+        margin-right: 0px;
+    }
+
+    .login {
+        margin-top: 0px;
+    }
+
+    /* Home section */
+    #home {
+        height: 25vh;
+        padding: 29px 0px;
+        margin: 2px 9px;
+        /* width:  141%; */
+    }
+
+    #home h1 {
+        font-size: 1.6rem;
+    }
+
+    #home::before {
+        height: 46%;
+
+        /* width: 146%; */
+    }
+
+    #home p {
+        font-size: 0.6rem;
+        display: none;
+    }
+
+    .box img {
+
+        width: 239px;
+        height: 167px;
+        /* margin-right:  35px; */
+        /* margin-left: 72px; */
+    }
+
+    .h-secondry {
+        font-size: 2.6rem;
+    }
+
+
+    /* Services section  */
+
+    .services {
+        flex-direction: column;
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+        /* margin-left: 35px; */
+
+    }
+
+    #services-container {
+        margin-top: -38px;
+        /* width: 135%; */
+    }
+
+    #services .box {
+        flex-direction: column;
+        padding: 14px;
+        margin: 2px 0px;
+        margin-bottom: 20px;
+    }
+
+    .box {
+        height: 51vh;
+        width: 93vw;
+        margin: 6px 1px;
+
+        flex-direction: column;
+        justify-content: flex;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    /* Clients section */
+    #clients {
+        flex-wrap: wrap;
+    }
+
+    #client-section::before {
+        height: 32%;
+        /* width: 145%; */
+    }
+
+    #client-section {
+        /* width: 140%; */
+        height: 49vh;
+    }
+
+    #clients img {
+        width: 50px;
+        padding: 2px;
+        height: auto;
+    }
+
+    /* Contact us section */
+
+
+    #contact-section {
+
+        margin-top: -82px;
+        /* width:   145%; */
+    }
+
+
+    #contact-box {
+        width: 83%;
+    }
+
+    #contact-box form {
+        width: 80%;
+    }
+
+    .formgroup textarea {
+        margin: 1px 35px;
+    }
+
+    .message1 {
+        margin: 0px 37px;
+    }
+
+    /* Footer */
+
+    /* Utility classes */
+    .h-primary {
+        font-size: 26px;
+    }
+
+    .btn {
+        font-size: 15px;
+        padding: 2px 8px;
+        width: 94px;
+    }
+
+    footer {
+        /* margin: 45px 0px; */
+        /* width: 135%; */
+        margin: 0;
+        /* padding: 0; */
+        margin-top: 50px;
+    }
+}
+
+
+@media screen and (max-width:468px) {
+    #home {
+        padding: 0px;
+    }
+
+    .box {
+        height: 44vh;
+    }
+
+    .box img {
+        width: 110px;
+        height: 109px;
+    }
+
+    .h-secondry {
+        font-size: 2rem;
+    }
+
+    #hide_el {
+        display: none;
+    }
+
+    #clients img {
+        width: 32px;
+        margin: 5px 26px;
+    }
+
+    #client-section::before {
+        height: 27%;
+    }
+
+    #services-container {
+        margin-top: 17px;
+    }
+}
